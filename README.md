@@ -1,6 +1,10 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Youtube Clone
 
-## Available Scripts
+This react project was created to look and feel like youtube. This was created with:
+React
+Semantic CSS
+Font-Awesome
+Youtube API
 
 In the project directory, you can run:
 
