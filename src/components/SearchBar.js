@@ -16,9 +16,9 @@ class SearchBar extends React.Component{
 
 
     render(){
-        return (
-                
-            <div className="ui grid">
+        return (    
+            <div>
+            <div className="ui grid mobile only">
                 <div className="ui row">
                     <div className="four wide mobile column">
                         <a href="/">
@@ -27,9 +27,9 @@ class SearchBar extends React.Component{
                         </a> 
                     </div>
                     <div className="eight wide mobile column" style={{textAlign: 'left'}}>
-                        <form onSubmit={this.onFormSubmit}>
+                        <form onSubmit={this.onFormSubmit} style={{lineHeight: '10px'}}>
                             <input type="text" value={this.state.term} placeholder="Search" autoComplete="off" onChange={this.onInputChange} data-variation="inverted"/>
-                            <button data-tooltip="Search" data-position="bottom right" data-variation="tiny">
+                            <button data-tooltip="Search" data-position="bottom right" data-variation="tiny" >
                                 <i className="fa fa-search fa-sm" aria-hidden="true"></i>
                             </button>
                         </form>
@@ -39,7 +39,29 @@ class SearchBar extends React.Component{
                     </div>
                 </div>
             </div>
-               
+
+            <div className="ui grid tablet computer only">
+                <div className="ui row">
+                    <div className="four wide mobile column">
+                        <a href="/">
+                            <i className="fa fa-3x fa-youtube" aria-hidden="true" style={{color : 'red'}}></i>
+                            <i className="fa fa-3x fa-youtube-play" aria-hidden="true" style={{color : 'red' }}></i>
+                        </a> 
+                    </div>
+                    <div className="eight wide mobile column" style={{textAlign: 'left'}}>
+                        <form onSubmit={this.onFormSubmit}>
+                            <input type="text" value={this.state.term} placeholder="Search" autoComplete="off" onChange={this.onInputChange} data-variation="inverted"/>
+                            <button data-tooltip="Search" data-position="bottom right" data-variation="tiny" >
+                                <i className="fa fa-search fa-sm" aria-hidden="true"></i>
+                            </button>
+                        </form>
+                    </div>
+                    <div className="one wide mobile column four wide computer column three wide tablet column" style={{textAlign: 'left', paddingLeft: '0px'}}>
+                        <i className="fa fa-3x fa-user-circle-o" aria-hidden="true" style={{color : '#5c6bc0' }}></i>
+                    </div>
+                </div>
+            </div>
+            </div>
         );
     }
 }
