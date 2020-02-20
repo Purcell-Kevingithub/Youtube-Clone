@@ -10,7 +10,7 @@ form input[type=text] {
   border: 1px solid #ccc;
   border-right: none !important;
   line-height: 1.25em !important;
-  font-family: 'Roboto' !important;
+  font-family: 'Roboto', sans-serif !important;
   font-size: 1.2em !important;
   font-weight: 400 !important;
   padding-right: 30% !important;
