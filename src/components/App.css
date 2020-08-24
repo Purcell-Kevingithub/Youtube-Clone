@@ -1,3 +1,13 @@
 .ui.grid {
     padding-top: 0.5em !important;
 }
+
+.ui.huge.header {
+    padding: 10px;
+}
+
+.ui.header+p {
+    padding: 10px 5px 20px 10px;
+    max-width: 95vw;
+    word-break: break-word;
+}
