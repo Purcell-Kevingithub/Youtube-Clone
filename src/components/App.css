@@ -11,3 +11,48 @@
     max-width: 95vw;
     word-break: break-word;
 }
+
+.ui.container {
+    padding: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    width: 100% !important;
+}
+
+.ui.row {
+    padding-top: 0px !important;
+    padding-left: 2em !important;
+}
+
+.searchcontainer {
+    margin: 0px !important;
+    background-color: white;
+}
+
+.ui.grid.tablet.computer.only {
+    margin: 0px !important;
+}
+
+form {
+    padding-top: 0.4em;
+}
+
+i.fa.fa-2x.fa-user-circle-o {
+    float: right;
+    padding-top: 0.3em;
+    padding-right: 1em;
+}
+
+body {
+    background-color: #f1f1f1;;
+}
+
+.four.wide.mobile.column {
+    padding-left: 4em;
+}
+
+.ui.segment {
+    margin-right: 2em;
+}
+
+

@@ -34,8 +34,8 @@ export default Hamburger;
 var styles = {
   bmBurgerButton: {
     position: 'absolute',
-    width: '32px',
-    height: '26px',
+    width: '17px',
+    height: '12px',
     left: '36px',
     top: '26px'
   },

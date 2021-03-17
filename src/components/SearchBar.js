@@ -17,10 +17,10 @@ class SearchBar extends React.Component{
 
     render(){
         return (    
-            <div>
+            <div className="searchcontainer">
             <div className="ui grid mobile only">
                 <div className="ui row">
-                    <div className="four wide mobile column">
+                    <div className="four wide mobile column"> 
                         <a href="/">
                             <i className="fa fa-2x fa-youtube" aria-hidden="true" style={{color : 'red'}}></i>
                             <i className="fa fa-2x fa-youtube-play" aria-hidden="true" style={{color : 'red' }}></i>
@@ -44,8 +44,8 @@ class SearchBar extends React.Component{
                 <div className="ui row">
                     <div className="four wide mobile column">
                         <a href="/">
-                            <i className="fa fa-3x fa-youtube" aria-hidden="true" style={{color : 'red'}}></i>
-                            <i className="fa fa-3x fa-youtube-play" aria-hidden="true" style={{color : 'red' }}></i>
+                            <i className="fa fa-2x fa-youtube-play" aria-hidden="true" style={{color : 'red' }}></i>
+                            <i className="fa fa-2x fa-youtube" aria-hidden="true" style={{color : 'red'}}></i>
                         </a> 
                     </div>
                     <div className="eight wide mobile column" style={{textAlign: 'left'}}>
@@ -57,7 +57,7 @@ class SearchBar extends React.Component{
                         </form>
                     </div>
                     <div className="one wide mobile column four wide computer column three wide tablet column" style={{textAlign: 'left', paddingLeft: '0px'}}>
-                        <i className="fa fa-3x fa-user-circle-o" aria-hidden="true" style={{color : '#5c6bc0' }}></i>
+                        <i className="fa fa-2x fa-user-circle-o" aria-hidden="true" style={{color : '#5c6bc0' }}></i>
                     </div>
                 </div>
             </div>

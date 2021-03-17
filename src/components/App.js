@@ -42,9 +42,9 @@ class App extends React.Component{
                     <div className="ui container" style={{paddingTop: '50px'}}>
                         <SearchBar onTermSubmit={this.onTermSubmit}/>
                     </div>
-                    <div className="ui container" style={{paddingTop: '30px'}}>
+                    <div className="ui container bodycontainer" style={{paddingTop: '30px'}}>
                         <div className="ui two column stackable grid">
-                            <div className="ui row" style={{paddingTop: '0px'}}>
+                            <div className="ui row" style={{marginTop: '2em'}}>
                                 <div className="eleven wide column" >                       
                                     <VideoDetail video={this.state.selectedVideo} />
                                 </div>
