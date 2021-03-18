@@ -43,12 +43,12 @@ class App extends React.Component{
                         <SearchBar onTermSubmit={this.onTermSubmit}/>
                     </div>
                     <div className="ui container bodycontainer" style={{paddingTop: '30px'}}>
-                        <div className="ui two column stackable grid">
+                        <div className="ui two column centered stackable grid">
                             <div className="ui row" style={{marginTop: '2em'}}>
-                                <div className="eleven wide column" >                       
+                                <div className="seven wide column" >                       
                                     <VideoDetail video={this.state.selectedVideo} />
                                 </div>
-                                <div className="five wide column">
+                                <div className="four wide column">
                                     <div className="ui segment">
                                         <VideoList onVideoSelect={this.onVideoSelect} videos={this.state.videos}/>
                                     </div>

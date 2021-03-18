@@ -22,8 +22,8 @@ class SearchBar extends React.Component{
                 <div className="ui row">
                     <div className="four wide mobile column"> 
                     <a href="/">
-                        <i className="fa fa-2x fa-youtube" aria-hidden="true" style={{color : 'red'}}></i>
-                        <i className="fa fa-2x fa-youtube-play" aria-hidden="true" style={{color : 'red' }}></i>
+                    <span><i className="fa fa-2x fa-youtube-play" aria-hidden="true" style={{color : 'red' }}></i></span>
+                    <span className="youtube">YouTube</span>
                     </a> 
                     </div>
                     <div className="eight wide mobile column" style={{textAlign: 'left'}}>
