@@ -21,10 +21,10 @@ class SearchBar extends React.Component{
             <div className="ui grid mobile only">
                 <div className="ui row">
                     <div className="four wide mobile column"> 
-                        <a href="/">
-                            <i className="fa fa-2x fa-youtube" aria-hidden="true" style={{color : 'red'}}></i>
-                            <i className="fa fa-2x fa-youtube-play" aria-hidden="true" style={{color : 'red' }}></i>
-                        </a> 
+                    <a href="/">
+                        <i className="fa fa-2x fa-youtube" aria-hidden="true" style={{color : 'red'}}></i>
+                        <i className="fa fa-2x fa-youtube-play" aria-hidden="true" style={{color : 'red' }}></i>
+                    </a> 
                     </div>
                     <div className="eight wide mobile column" style={{textAlign: 'left'}}>
                         <form onSubmit={this.onFormSubmit} style={{lineHeight: '10px'}}>
@@ -43,10 +43,10 @@ class SearchBar extends React.Component{
             <div className="ui grid tablet computer only">
                 <div className="ui row">
                     <div className="four wide mobile column">
-                        <a href="/">
-                            <i className="fa fa-2x fa-youtube-play" aria-hidden="true" style={{color : 'red' }}></i>
-                            <i className="fa fa-2x fa-youtube" aria-hidden="true" style={{color : 'red'}}></i>
-                        </a> 
+                    <a href="/">
+                        <span><i className="fa fa-2x fa-youtube-play" aria-hidden="true" style={{color : 'red' }}></i></span>
+                        <span className="youtube">YouTube</span>
+                    </a> 
                     </div>
                     <div className="eight wide mobile column" style={{textAlign: 'left'}}>
                         <form onSubmit={this.onFormSubmit}>

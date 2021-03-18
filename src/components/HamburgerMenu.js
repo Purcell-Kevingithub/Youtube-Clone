@@ -12,8 +12,8 @@ class Hamburger extends React.Component {
         <Menu className="bm-cross bm-burger-bars-hover" styles={ styles } width={ 300 }>
           <div className="ui segment">
             <a href="/">
-              <i className="fa fa-2x fa-youtube" aria-hidden="true" style={{color : 'red' }}></i>
-              <i className="fa fa-2x fa-youtube-play" aria-hidden="true" style={{color : 'red' }}></i>
+            <span><i className="fa fa-2x fa-youtube-play" aria-hidden="true" style={{color : 'red' }}></i></span>
+            <span className="youtube">YouTube</span>
             </a>
           <hr />
             <a className="item" href="/" style={{color: 'black'}}>Home</a>
@@ -37,7 +37,7 @@ var styles = {
     width: '17px',
     height: '12px',
     left: '36px',
-    top: '26px'
+    top: '20px'
   },
   bmBurgerBars: {
     background: '#373a47'

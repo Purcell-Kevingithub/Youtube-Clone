@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'Trade Gothic';
+    src: local('Trade Gothic'), url(../fonts/TradeGothicLTBold.ttf) format('truetype');
+  }
+
+form {
+    padding-top: 0.4em;
+}
+
+body {
+    background-color: #f1f1f1;;
+}
+
 .ui.grid {
     padding-top: 0.5em !important;
 }
@@ -24,18 +37,18 @@
     padding-left: 2em !important;
 }
 
-.searchcontainer {
-    margin: 0px !important;
-    background-color: white;
-}
-
 .ui.grid.tablet.computer.only {
     margin: 0px !important;
 }
 
-form {
-    padding-top: 0.4em;
+.ui.segment {
+    margin-right: 2em;
 }
+
+.four.wide.mobile.column {
+    padding-left: 4em;
+}
+
 
 i.fa.fa-2x.fa-user-circle-o {
     float: right;
@@ -43,16 +56,24 @@ i.fa.fa-2x.fa-user-circle-o {
     padding-right: 1em;
 }
 
-body {
-    background-color: #f1f1f1;;
+i.fa.fa-2x.fa-youtube-play {
+    padding-top: 6px;
 }
 
-.four.wide.mobile.column {
-    padding-left: 4em;
+.searchcontainer {
+    margin: 0px !important;
+    background-color: white;
 }
 
-.ui.segment {
-    margin-right: 2em;
+.youtube {
+    color: black;
+    font-family: Trade Gothic LT Bold;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 0.1px;
+    padding-left: 3px;
 }
+
+
 
 
