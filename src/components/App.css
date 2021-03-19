@@ -5,6 +5,7 @@
 
 form {
     padding-top: 0.4em;
+    min-width: 100%;
 }
 
 body {
@@ -73,6 +74,17 @@ i.fa.fa-2x.fa-youtube-play {
     padding-left: 3px;
 }
 
+@media (max-width: 768px) {
+    i.fa.fa-2x.fa-user-circle-o {
+        float: right;
+        padding-top: 0.3em;
+        padding-right: 0px;
+    }
+    form {
+        min-width: 345px;
+    }
+
+  }
 
 
 

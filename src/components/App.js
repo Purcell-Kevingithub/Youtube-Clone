@@ -34,30 +34,28 @@ class App extends React.Component{
     render(){
         return (
             <div>
-   
-            <div id="outer-container">
-                
-                <Hamburger pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" } />
-                <main id="page-wrap">
-                    <div className="ui container" style={{paddingTop: '50px'}}>
-                        <SearchBar onTermSubmit={this.onTermSubmit}/>
-                    </div>
-                    <div className="ui container bodycontainer" style={{paddingTop: '30px'}}>
-                        <div className="ui two column centered stackable grid">
-                            <div className="ui row" style={{marginTop: '2em'}}>
-                                <div className="seven wide column" >                       
-                                    <VideoDetail video={this.state.selectedVideo} />
-                                </div>
-                                <div className="four wide column">
-                                    <div className="ui segment">
-                                        <VideoList onVideoSelect={this.onVideoSelect} videos={this.state.videos}/>
+                <div id="outer-container">
+                    <Hamburger pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" } />
+                    <main id="page-wrap">
+                        <div className="ui container" style={{paddingTop: '50px'}}>
+                            <SearchBar onTermSubmit={this.onTermSubmit}/>
+                        </div>
+                        <div className="ui container bodycontainer" style={{paddingTop: '30px'}}>
+                            <div className="ui two column centered stackable grid">
+                                <div className="ui row" style={{marginTop: '2em'}}>
+                                    <div className="seven wide column" >                       
+                                        <VideoDetail video={this.state.selectedVideo} />
+                                    </div>
+                                    <div className="four wide column">
+                                        <div className="ui segment">
+                                            <VideoList onVideoSelect={this.onVideoSelect} videos={this.state.videos}/>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </main>
-            </div>
+                    </main>
+                </div>
             </div>
 
 
