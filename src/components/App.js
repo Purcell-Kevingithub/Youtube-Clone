@@ -10,7 +10,7 @@ class App extends React.Component{
     state = { videos: [], selectedVideo: null };
 
     componentDidMount(){
-        this.onTermSubmit('buildings');
+        this.onTermSubmit('JavaScript');
     };
 
 
@@ -46,7 +46,7 @@ class App extends React.Component{
                                     <div className="seven wide column" >                       
                                         <VideoDetail video={this.state.selectedVideo} />
                                     </div>
-                                    <div className="four wide column">
+                                    <div className="five wide column">
                                         <div className="ui segment">
                                             <VideoList onVideoSelect={this.onVideoSelect} videos={this.state.videos}/>
                                         </div>
