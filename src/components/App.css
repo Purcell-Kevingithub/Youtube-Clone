@@ -1,95 +1,86 @@
 @font-face {
-    font-family: 'Trade Gothic';
-    src: local('Trade Gothic'), url(../fonts/TradeGothicLTBold.ttf) format('truetype');
-  }
-
-form {
-    padding-top: 0.4em;
-    min-width: 100%;
+  font-family: "Trade Gothic";
+  src: local("Trade Gothic"),
+    url(../fonts/TradeGothicLTBold.ttf) format("truetype");
 }
 
 body {
-    background-color: #f1f1f1;;
+  background-color: #f1f1f1;
 }
 
-.ui.grid {
-    padding-top: 0.5em !important;
+h4 {
+  padding-top: 1rem !important;
+  text-align: center;
 }
 
-.ui.grid.mobile.only{
-    margin-right: 0px;
-    margin-left: 0px;
+.ui.grid.mobile.only {
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
-.ui.huge.header {
-    padding: 10px;
+.ui.segment.centered.grid.mobile.tablet.only {
+  padding: 5px;
 }
 
-.ui.header+p {
-    padding: 10px 5px 20px 10px;
-    max-width: 95vw;
-    word-break: break-word;
+.ui.segment.centered.grid.tablet.only {
+  padding: 20px;
+}
+
+.ui.header + p {
+  padding: 10px 20px;
+  word-break: break-word;
 }
 
 .ui.container {
-    padding: 0px !important;
-    margin-left: 0px !important;
-    margin-right: 0px !important;
-    width: 100% !important;
-}
-
-.ui.row {
-    padding-top: 0px !important;
+  padding: 0px !important;
+  width: 100% !important;
 }
 
 .ui.grid.tablet.computer.only {
-    margin: 0px !important;
-}
-
-
-.four.wide.mobile.column {
-    padding-left: 4em;
-}
-
-
-i.fa.fa-2x.fa-user-circle-o {
-    float: right;
-    padding-top: 0.3em;
-    padding-right: 1em;
-}
-
-i.fa.fa-2x.fa-youtube-play {
-    padding-top: 6px;
+  margin: 0px !important;
 }
 
 .searchcontainer {
-    margin: 0px !important;
-    background-color: white;
+  background-color: white;
+  align-items: center;
 }
 
 .youtube {
-    color: black;
-    font-family: Trade Gothic LT Bold;
-    font-weight: bold;
-    font-size: 20px;
-    letter-spacing: 0.1px;
-    padding-left: 3px;
+  color: black;
+  font-family: Trade Gothic LT Bold;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 0.1px;
+  padding-left: 3px;
 }
 
-h4.ui.header{
-    padding: 10px;
+.video-content {
+  padding-top: 10px;
+  padding-bottom: 3rem;
 }
 
+.fa-youtube-play {
+  margin-left: 25px;
+}
 
-@media (max-width: 768px) {
-    i.fa.fa-2x.fa-user-circle-o {
-        float: right;
-        padding-top: 0.3em;
-        padding-right: 0px;
-    }
+.align {
+  align-items: center !important;
+}
 
-
+@media only screen and (max-width: 1200px) {
+  .video-content {
+    padding-top: 10px;
+    padding-bottom: 1rem;
   }
+}
 
-
-
+@media only screen and (max-width: 767px) {
+  .ui.container {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .video-content {
+    padding-top: 10px;
+    padding-bottom: 1rem;
+  }
+}

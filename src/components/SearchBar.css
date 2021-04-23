@@ -16,7 +16,7 @@ form input[type="text"] {
   max-width: 75%;
   box-sizing: border-box;
   text-indent: 5px;
-  height: 50px;
+  height: 30px;
   letter-spacing: normal;
   width: 73%;
 }
@@ -43,10 +43,6 @@ button {
 button:hover {
   color: black;
   background-color: #e2e2e2;
-}
-
-form {
-  padding-top: 10px;
 }
 
 @media only screen and (max-width: 768px) {
